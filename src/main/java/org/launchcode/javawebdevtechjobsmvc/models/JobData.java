@@ -133,6 +133,11 @@ public class JobData {
         return null;
     }
 
+    @Override
+    public String toString() {
+        return "JobData{}";
+    }
+
     /**
      * Read in data from a CSV file and store it in an ArrayList of Job objects.
      */
